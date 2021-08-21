@@ -4,7 +4,7 @@ import base64
 def encode():
     list_s = []
     r_move = int(2)
-    s = '郭圆辉'
+    s = 'test'
     s = s.encode()
     s = base64.b64encode(s)
     print("base64:{}".format(s))
